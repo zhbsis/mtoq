@@ -1,0 +1,8 @@
+d 'mtoq':  transfer the monthly data to quarterly data 
+
+d
+d Distribution-Date: 20181224
+d revised-Date: -
+d
+F mtoq.ado
+F mtoq.sthlp
