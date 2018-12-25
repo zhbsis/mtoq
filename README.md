@@ -27,3 +27,7 @@ mtoq varlist, by(string) [Statistics(string)]
 * Statistics 选项中可填写 Stata官方命令 `egen` 中的常见 option ，例如 mean、sum等，默认为 mean 处理，在月度收益率转换为季度收益率的时候通常填写 sum 选项。
 
 > **Tips**：当然，`mtoq`命令默认了由月度频率向季度频率转换，因此不局限于收益率序列的转换，可转换其他变量。例如当你有月度的换手率（TurnOver）数据时，你想要通过加总月度换收益率得到季度的换手率，可输入：`mtoq TurnOver, by(stkcd ym) s(sum)`
+
+
+
+> PS:特别特别欢迎有coding爱好的同学和我一起合作，在coding中寻找乐趣。可以加我微信: **little_Chu_**，也可以加我的微信公众号：**ddky_sis**。
